@@ -329,3 +329,160 @@ i.menu-mobile{
   flex-direction: column;
   justify-content: space-between;
 }
+
+/* dark-mode overrides */
+body.dark-mode {
+  background-color: #121212;
+  color: #e1e1e1;
+}
+
+body.dark-mode #header,
+body.dark-mode #footer {
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+body.dark-mode .nav-menu a {
+  color: #bbb;
+}
+body.dark-mode .nav-menu a:hover,
+body.dark-mode .nav-menu .active {
+  color: #fff;
+}
+
+body.dark-mode section#inicio {
+  background-color: #0d0d0d !important;
+}
+
+body.dark-mode .section-bg {
+  background-color: #1a1a1a !important;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+body.dark-mode .card .card-title,
+body.dark-mode .card .card-text {
+  color: #e1e1e1;
+}
+
+body.dark-mode .list-group-item {
+  background-color: #1e1e1e;
+  color: #e1e1e1;
+}
+
+body.dark-mode .progress {
+  background-color: #333;
+}
+body.dark-mode .progress-bar {
+  background-color: #4caf50;
+}
+
+body.dark-mode a {
+  color: #81a1c1;
+}
+body.dark-mode a:hover {
+  color: #88c0d0;
+}
+
+body.dark-mode #contato {
+  color: #e1e1e1;
+}
+
+body.dark-mode #contato .card {
+  background-color: #1e1e1e;
+  color: #e1e1e1;
+  border-color: #333;
+}
+
+body.dark-mode #contato h2,
+body.dark-mode #contato h4,
+body.dark-mode #contato p,
+body.dark-mode #contato label {
+  color: #e1e1e1;
+}
+
+body.dark-mode #contato input,
+body.dark-mode #contato textarea {
+  background-color: #333;
+  color: #e1e1e1;
+  border: 1px solid #555;
+}
+
+body.dark-mode #contato input::placeholder,
+body.dark-mode #contato textarea::placeholder {
+  color: #bbb;
+}
+
+section#curriculo {
+  padding-bottom: 3rem;
+}
+
+body.dark-mode section#curriculo {
+  background-color: #1a1a1a; 
+  color: #e1e1e1;            
+}
+
+body.dark-mode .cv .cv-title {
+  color: #e1e1e1;            
+}
+
+body.dark-mode .cv .cv-item {
+  border-left-color: #555;   
+}
+
+body.dark-mode .cv .cv-item::before {
+  border-color: #555;        
+  background: #1a1a1a;       
+}
+
+body.dark-mode .cv .cv-item h4 {
+  color: #e1e1e1;            
+}
+
+body.dark-mode .cv .cv-item h5 {
+  background: #333;          
+  color: #e1e1e1;            
+}
+
+body.dark-mode .cv .cv-item p,
+body.dark-mode .cv .cv-item ul li {
+  color: #ccc;               
+}
+
+body.dark-mode .card .list-group-item {
+  background-color: #1e1e1e;
+  border-color: #333;
+  color: #e1e1e1;
+}
+
+body.dark-mode .card .list-group-item a {
+  color: #81a1c1;       
+  text-decoration: none;
+}
+
+body.dark-mode .card .list-group-item a:hover {
+  color: #88c0d0;
+}
+
+/* Link “Trabalho” em modo claro herda cor padrão */
+.portfolio-link {
+  color: inherit;            /* usa a cor do <li> */
+  text-decoration: none;
+}
+
+/* No hover, leve sublinhado */
+.portfolio-link:hover {
+  text-decoration: underline;
+}
+
+/* Dark Mode: força cor clara neste link */
+body.dark-mode .portfolio-link {
+  color: #81a1c1 !important;
+}
+
+body.dark-mode .portfolio-link:hover {
+  color: #88c0d0 !important;
+}
